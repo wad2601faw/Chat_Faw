@@ -9,7 +9,7 @@ $env_file = __DIR__ . '/.env';
 $db_host = 'localhost';
 $db_user = 'root';
 $db_pass = '';
-$db_name = 'makanapa';
+$db_name = 'faw';
 
 if (file_exists($env_file)) {
     $lines = file($env_file, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
